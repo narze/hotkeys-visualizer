@@ -61,11 +61,19 @@ export const demoPreset: HotkeyPreset = {
 		{ key: 'KC_RSFT', action: 'Shift', category: 'modifier' },
 		{ key: 'KC_LCTL', action: 'Ctrl', category: 'modifier' },
 		{ key: 'KC_RCTL', action: 'Ctrl', category: 'modifier' },
-		{ key: 'KC_LALT', action: 'Alt', category: 'modifier' },
-		{ key: 'KC_RALT', action: 'AltGr', category: 'modifier' },
-		{ key: 'KC_LGUI', action: '⌘ / Win', category: 'modifier' },
+		{ key: 'KC_LGUI', action: '⌥ / Win', category: 'modifier' },
+		{ key: 'KC_LALT', action: '⌘ / Alt', category: 'modifier' },
+		{ key: 'KC_RALT', action: '⌘ / AltGr', category: 'modifier' },
 		{ key: 'KC_FN', action: 'Fn', category: 'modifier' }
 	]
 };
 
-export const presets: HotkeyPreset[] = [demoPreset];
+export { macosPreset } from './macos';
+export { vscodePreset } from './vscode';
+export { hyperPreset } from './hyper';
+
+import { macosPreset } from './macos';
+import { vscodePreset } from './vscode';
+import { hyperPreset } from './hyper';
+
+export const presets: HotkeyPreset[] = [demoPreset, macosPreset, vscodePreset, hyperPreset];
