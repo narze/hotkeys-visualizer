@@ -1,0 +1,57 @@
+import type { HotkeyPreset } from './demo';
+
+export const macosPreset: HotkeyPreset = {
+	id: 'macos',
+	name: 'macOS',
+	description: 'Standard macOS system shortcuts',
+	hotkeys: [
+		// Cmd + letter
+		{ key: 'KC_A', action: 'Select All', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_B', action: 'Bold', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_C', action: 'Copy', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_D', action: 'Duplicate', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_E', action: 'Center', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_F', action: 'Find', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_G', action: 'Find Again', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_H', action: 'Hide', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_I', action: 'Italic', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_J', action: 'Jump to Selection', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_K', action: 'Link', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_L', action: 'Location Bar', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_M', action: 'Minimize', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_N', action: 'New Window', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_O', action: 'Open', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_P', action: 'Print', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_Q', action: 'Quit', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_R', action: 'Reload', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_S', action: 'Save', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_T', action: 'New Tab', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_U', action: 'Underline', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_V', action: 'Paste', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_W', action: 'Close Tab', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_X', action: 'Cut', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_Y', action: 'Redo', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_Z', action: 'Undo', modifier: '⌘', category: 'editing' },
+		// Cmd + number
+		{ key: 'KC_1', action: 'Tab 1', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_2', action: 'Tab 2', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_3', action: 'Tab 3', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_4', action: 'Tab 4', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_9', action: 'Last Tab', modifier: '⌘', category: 'navigation' },
+		// Special keys
+		{ key: 'KC_TAB', action: 'App Switch', modifier: '⌘', category: 'navigation' },
+		{ key: 'KC_SPC', action: 'Spotlight', modifier: '⌘', category: 'system' },
+		{ key: 'KC_ESC', action: 'Force Quit', modifier: '⌘⌥', category: 'system' },
+		{ key: 'KC_BSPC', action: 'Delete', modifier: '⌘', category: 'editing' },
+		{ key: 'KC_ENT', action: 'Rename', modifier: '↵', category: 'system' },
+		{ key: 'KC_CAPS', action: 'Caps Lock', category: 'modifier' },
+		{ key: 'KC_LGUI', action: '⌘ Cmd', category: 'modifier' },
+		{ key: 'KC_RGUI', action: '⌘ Cmd', category: 'modifier' },
+		{ key: 'KC_LALT', action: '⌥ Option', category: 'modifier' },
+		{ key: 'KC_RALT', action: '⌥ Option', category: 'modifier' },
+		{ key: 'KC_LSFT', action: '⇧ Shift', category: 'modifier' },
+		{ key: 'KC_RSFT', action: '⇧ Shift', category: 'modifier' },
+		{ key: 'KC_LCTL', action: '⌃ Ctrl', category: 'modifier' },
+		{ key: 'KC_RCTL', action: '⌃ Ctrl', category: 'modifier' }
+	]
+};

@@ -68,4 +68,12 @@ export const demoPreset: HotkeyPreset = {
 	]
 };
 
-export const presets: HotkeyPreset[] = [demoPreset];
+export { macosPreset } from './macos';
+export { vscodePreset } from './vscode';
+export { hyperPreset } from './hyper';
+
+import { macosPreset } from './macos';
+import { vscodePreset } from './vscode';
+import { hyperPreset } from './hyper';
+
+export const presets: HotkeyPreset[] = [demoPreset, macosPreset, vscodePreset, hyperPreset];
