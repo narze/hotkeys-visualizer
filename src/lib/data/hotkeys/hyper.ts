@@ -43,7 +43,7 @@ export const hyperPreset: HotkeyPreset = {
 		{ key: 'KC_LSFT', action: 'Shift', category: 'modifier' },
 		{ key: 'KC_RSFT', action: 'Shift', category: 'modifier' },
 		{ key: 'KC_LCTL', action: 'Ctrl', category: 'modifier' },
-		{ key: 'KC_LALT', action: 'Alt', category: 'modifier' },
-		{ key: 'KC_LGUI', action: '⌘', category: 'modifier' }
+		{ key: 'KC_LGUI', action: '⌥ Option', category: 'modifier' },
+		{ key: 'KC_LALT', action: '⌘ Cmd', category: 'modifier' }
 	]
 };
