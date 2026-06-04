@@ -47,8 +47,8 @@ export const vscodePreset: HotkeyPreset = {
 		{ key: 'KC_RSFT', action: 'Shift', category: 'modifier' },
 		{ key: 'KC_LCTL', action: 'Ctrl', category: 'modifier' },
 		{ key: 'KC_RCTL', action: 'Ctrl', category: 'modifier' },
-		{ key: 'KC_LALT', action: 'Alt', category: 'modifier' },
-		{ key: 'KC_LGUI', action: 'Win', category: 'modifier' },
+		{ key: 'KC_LGUI', action: '⌥ Option / Win', category: 'modifier' },
+		{ key: 'KC_LALT', action: '⌘ Cmd / Alt', category: 'modifier' },
 		{ key: 'KC_FN', action: 'Fn', category: 'modifier' }
 	]
 };
