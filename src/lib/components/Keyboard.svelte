@@ -19,7 +19,7 @@
 
 <div class="overflow-x-auto pb-2">
 	<div
-		class="relative mx-auto rounded-xl bg-zinc-200 p-3 shadow-inner"
+		class="relative mx-auto rounded-xl bg-zinc-200 dark:bg-zinc-900 p-3 shadow-inner"
 		style="width:{boardWidth + 24}px;height:{boardHeight + 24}px;"
 	>
 		<div class="relative" style="width:{boardWidth}px;height:{boardHeight}px;">
